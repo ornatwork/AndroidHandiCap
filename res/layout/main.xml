@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/lbPlayer1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Handicap Player1:"/>
+    <EditText
+        android:id="@+id/txPlayer1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/lbPlayer1"/>
+    <TextView
+        android:id="@+id/lbPlayer2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txPlayer1"
+        android:text="Handicap Player2:"/>
+    <EditText
+        android:id="@+id/txPlayer2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/lbPlayer2"/>
+    <Button
+        android:id="@+id/btOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txPlayer2"
+        android:layout_alignParentRight="false"
+        android:layout_marginLeft="10dip"
+        android:text="Calculate" />
+    <TextView
+        android:id="@+id/lbMustWin1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btOk"
+        android:text="Number of games Player1 must win:"/>
+        
+    <EditText
+        android:id="@+id/txMustWin1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/lbMustWin1"/>
+    <TextView
+        android:id="@+id/lbMustWin2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txMustWin1"
+        android:text="Number of games Player2 must win:"/>
+    <EditText
+        android:id="@+id/txMustWin2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/lbMustWin2"/>
+<ImageButton
+android:id="@+id/btTestImage"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="26px"
+android:layout_y="141px"
+android:layout_below="@id/txMustWin2"
+android:background="@drawable/android_button"
+/>
+
+</RelativeLayout>
